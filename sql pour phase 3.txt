@@ -1,0 +1,7 @@
+Nom/age->volontaire select nom, age from volontaire
+Nb min de participation->estpresent count idv from estpresent
+Responsable ou pas->buvette jointure avec idv de volontaire + un if	  
+
+pas bon: select nomV, age, count(E.idV) as Nbpart, responsable from volontaire V, estpresent E, buvette B;
+
+

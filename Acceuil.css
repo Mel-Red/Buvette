@@ -1,0 +1,57 @@
+h1
+{
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+	text-decoration: underline;
+	color: black;
+}
+
+.form
+{
+	color: black;
+	font-weight: bold;
+}
+
+body
+{
+	color: black;
+	background-image: url(img/biere.jpg);
+	background-repeat: no-repeat;
+	background-size: 1000%;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+		font-weight: bold;
+	font-family: verdana;
+}
+
+.navbar
+{
+	background-color: lightyellow;
+}
+
+.button
+{
+	background-color: lightyellow;
+	border: none;
+	outline: none;
+	padding: 14px;
+}
+
+.bas
+{
+	background-color:lightyellow;
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
